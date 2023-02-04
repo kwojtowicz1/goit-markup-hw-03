@@ -1,0 +1,141 @@
+body{
+    --main-color: #212121;
+    --secondary-color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.navigation a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+.navigation a:hover,
+.navigation a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}      
+.brand-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: #2196F3; 
+}
+.contact-link a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contact-link a:hover,
+.contact-link a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+.mian-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.order-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.53;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.content-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.content-text {
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.section-subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.86;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.86;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-position {
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.address-link {
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link {
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail {
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.6);
+}
+.option-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+}
+.project-option {
+    font-size: 16px;
+    line-height: 0.53;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.all-options {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.vector:hover {
+    cursor: pointer;
+}
