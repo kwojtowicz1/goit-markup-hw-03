@@ -7,16 +7,20 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/styles.css"/> 
   </head>
   <body>
-    <header>
-      <a class="brand-link" href="#"
-        ><h2>WebStudio</h2></a
-      >
+    <header class="header">
+      <a class="brand-link" href="#">
+        <h2 class="logo">WebStudio</h2>
+      </a>
       <nav class="navigation">
-        <ul>
+        <ul class="menu">
           <li>
             <a href="#">Agencja</a>
           </li>
@@ -35,13 +39,14 @@
     </header>
     <main>
       <!-- HERO -->
-      <section>
-        <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="order-link vector">Zamow usługę</button>
+      <section class="container2">
+        <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA
+           DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="order-link vector">Zamów usługę</button>
       </section>
       <!-- TEKST -->
       <section>
-          <ul>
+          <ul class="container3">
             <li>
               <h6 class="content-title">LOREM IPSUM</h6>
               <p class="content-text">
@@ -75,8 +80,8 @@
       <!-- ZDJECIA CZYM SIE ZAJMUJEMY -->
       <section>
         <div>
-          <h2 class="section-subject">Czym sie zajmujemy</h2>
-          <ul>
+          <h2 class="section-subject container4">Czym sie zajmujemy</h2>
+          <ul class="container5">
             <li>
               <img
                 src="./images/image-2.jpg"
@@ -105,9 +110,9 @@
         </div>
       </section>
       <!-- ZESPOL -->
-      <section>
+      <section class="container6">
           <h2 class="section-subject">Nasz zespół</h2>
-          <ul>
+          <ul class="container7">
             <li>
               <figure>
                 <img
