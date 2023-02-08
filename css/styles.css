@@ -78,7 +78,7 @@ body{
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -97,13 +97,13 @@ body{
 }
 .footer-link {
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail {
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
@@ -111,7 +111,7 @@ body{
 .option-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.62;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -119,19 +119,19 @@ body{
 .project-name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .project-option {
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .all-options {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.62;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
