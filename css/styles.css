@@ -1,9 +1,56 @@
+/* Zastosowanie ogólne */
 body{
     --main-color: #212121;
     --secondary-color: #757575;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.footer {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    height: 252px;
+    left: 0;
+    top: 2097px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #2f303A;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1360px;
+    top: 174px;  
+    margin: 0 auto;
+    padding: 0 15px;  
+}
+.header {
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Pseudoklasy etc */
+.vector:hover {
+    cursor: pointer;
+}
+.contact-link a:hover,
+.contact-link a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+.navigation a:hover,
+.navigation a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}      
+/* Zastosowanie Header */
 .navigation a {
     text-decoration: none;
     font-weight: 500;
@@ -12,11 +59,6 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
     }
-.navigation a:hover,
-.navigation a:focus {
-    color: #2196F3;
-    cursor: pointer;
-}      
 .brand-link {
     font-family: 'Raleway';
     font-weight: 700;
@@ -31,127 +73,6 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-}
-.contact-link a:hover,
-.contact-link a:focus {
-    color: #2196F3;
-    cursor: pointer;
-}
-.mian-text {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.order-link {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
-.content-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.content-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.section-subject {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.team-position {
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.address-link {
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-.footer-link {
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-.footer-mail {
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-decoration-line: underline;
-    color: rgba(255, 255, 255, 0.6);
-}
-.option-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    }
-.project-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.project-option {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.all-options {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-.vector:hover {
-    cursor: pointer;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-.header {
-    display: flex;
-    width: 1200px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    justify-content: space-between;
-    align-items: center;
 }
 .logo {
     width: 145px;
@@ -174,12 +95,14 @@ body{
     top: 32px;
 }
 .menu-link {
-    display: block;
+    display: flex;
+    justify-content: space-around;
     height: 16px;
     width: 295px;
     left: 1078px;
     top: 32px;
 }
+/* Zastosowanie Main Index */
 .hero {
     display: flex;
     width: 1200px;
@@ -244,12 +167,106 @@ border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0,0,0,0,14), 0px 1px 1px rgba(0,0,0,0,14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.main {
+.mian-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.order-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
     display: flex;
-    flex-direction: column;
-    width: 1200px;
-    height: 1360px;
-    top: 174px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.content-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.content-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.section-subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Zastosowanie Footer */
+.address-link {
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link {
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail {
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Zastosowanie w Main Portfolio */
+.option-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-option {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.all-options {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .box-but {
     display: inline;
@@ -262,13 +279,4 @@ border-radius: 4px;
 }
 .card-set {
     flex-basis: calc((100%-10px)/3);
-}
-.footer {
-    display: flex;
-    width: 1200px;
-    flex-direction: column;
-    height: 252px;
-    left: 0;
-    top: 2097px;
-    background: #2f303A;
 }
