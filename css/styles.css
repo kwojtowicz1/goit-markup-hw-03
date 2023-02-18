@@ -50,6 +50,11 @@ body{
     color: #2196F3;
     cursor: pointer;
 }      
+.option-button:hover,
+.option-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
 /* Zastosowanie Header */
 .navigation a {
     text-decoration: none;
@@ -271,8 +276,4 @@ border-radius: 4px;
 }
 .card-set {
     flex-basis: calc((100%-10px)/3);
-}
-.option-button:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
 }
