@@ -260,14 +260,6 @@ border-radius: 4px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.all-options {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
 .box-but {
     display: inline;
 }
@@ -279,4 +271,8 @@ border-radius: 4px;
 }
 .card-set {
     flex-basis: calc((100%-10px)/3);
+}
+.option-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
