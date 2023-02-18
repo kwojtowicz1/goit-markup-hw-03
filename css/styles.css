@@ -37,23 +37,31 @@ body{
     align-items: center;
 }
 /* Pseudoklasy etc */
-.vector:hover {
-    cursor: pointer;
-}
 .contact-link a:hover,
 .contact-link a:focus {
     color: #2196F3;
-    cursor: pointer;
 }
 .navigation a:hover,
 .navigation a:focus {
     color: #2196F3;
-    cursor: pointer;
 }      
 .option-button:hover,
 .option-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: #2196F3;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+    color: #2196F3;
+}
+a:hover,
+a:focus {
+    cursor: pointer;
 }
 /* Zastosowanie Header */
 .navigation a {
@@ -71,6 +79,10 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3; 
+    text-decoration: none;
+}
+.brand {
+    color: #212121;
 }
 .contact-link a {
     font-weight: 500;
