@@ -4,7 +4,7 @@
     --main-color: #212121;
     --secondary-color: #757575;
 }
-body{
+.body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -62,9 +62,9 @@ body{
 .footer-mail:focus {
     color: #2196F3;
 }
-a:hover,
-a:focus {
-    cursor: pointer;
+.a:hover,
+.a:focus {
+cursor: pointer;
 }
 /* Zastosowanie Header */
 .navigation a {
@@ -125,7 +125,7 @@ a:focus {
     left: 1078px;
     top: 32px;
 }
-/* Zastosowanie Main Index */
+/* Zastosowanie Main Index Hero */
 .hero {
     display: flex;
     width: 1200px;
@@ -144,51 +144,13 @@ height: 120px;
 top: 280px;
 }
 .hero button {
-width: 280px;
+width: 200px;
 height: 50px;
 top: 430px;    
+left: auto;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0,0,0,0,15);
 border-radius: 4px; 
-}
-.container3 {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-.container3 p {
-    width: 270px;
-    height: 75px;
-    top: 800px;
-}
-.container3 h6 {
-    width: 270px;
-    height: 16px;
-    top: 774px;
-}
-.container4 {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-.container5 {
-    display: flex;
-    width: 1200px;
-    height: 648px;
-    left: 0;
-    top: 1449px;
-    background-color: #f5f4fa;
-}
-.container7 {
-    display: flex;
-    list-style: none;
-    width: 270px;
-    height: 368px;
-    top: 1635;
-    align-items: center;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0,0,0,0,14), 0px 1px 1px rgba(0,0,0,0,14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 .main-text {
     font-weight: 900;
@@ -203,11 +165,11 @@ border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+/* Zastosowanie Main Index Text content */
 .content-title {
     font-weight: 700;
     font-size: 14px;
@@ -221,12 +183,51 @@ border-radius: 4px;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
+.container-text {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.container-text p {
+    width: 270px;
+    height: 75px;
+    top: 800px;
+}
+.container-text h6 {
+    width: 270px;
+    height: 16px;
+    top: 774px;
+}
+/* Zastosowanie Main Index img */
+.section-subject-wwd {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.container-wwd {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+/* Zastosowanie Main Index Team */
 .section-subject {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 0;
 }
 .team-name {
     font-weight: 500;
@@ -241,6 +242,28 @@ border-radius: 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+}
+.frame {
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+.container-team {
+    display: flex;
+    width: 1200px;
+    height: 648px;
+    left: 0;
+    top: 1449px;
+    flex-direction: column;
+    background-color: #f5f4fa;
+}
+.container-memb {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #f5f4fa;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0,14), 0px 1px 1px rgba(0,0,0,0,14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 /* Zastosowanie Footer */
 .address-link {
