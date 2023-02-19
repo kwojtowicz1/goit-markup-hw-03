@@ -12,9 +12,10 @@
     display: flex;
     width: 1200px;
     flex-direction: column;
+    justify-content: center;
     height: 252px;
     left: 0;
-    top: 2097px;
+    top: auto;
     margin: 0 auto;
     padding: 0 15px;
     background: #2f303A;
@@ -38,7 +39,8 @@
     padding: 0 15px;
     justify-content: space-around;
     align-items: center;
-}
+    border-inline-end-color: 1px solid #ECECEC
+    }
 /* Pseudoklasy etc */
 .contact-link a:hover,
 .contact-link a:focus {
@@ -265,7 +267,7 @@ border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0,0,0,0,14), 0px 1px 1px rgba(0,0,0,0,14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-/* Zastosowanie Footer */
+/* Zastosowanie Footer bez Brand Logo */
 .address-link {
     font-size: 14px;
     line-height: 1.17;
@@ -284,6 +286,10 @@ border-radius: 4px;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
 }
 /* Zastosowanie w Main Portfolio */
 .option-button {
@@ -308,13 +314,19 @@ border-radius: 4px;
 }
 .box-but {
     display: inline;
+    text-align: center;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     list-style: none;
+    padding-left: 0;
 }
 .card-set {
     flex-basis: calc((100%-10px)/3);
+}
+.frame-opt {
+    margin: 0;
+    border-color: 1px solid #EEEEEE;
 }
