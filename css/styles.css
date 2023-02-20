@@ -3,12 +3,13 @@
     background-color: #FFFFFF;
     --main-color: #212121;
     --secondary-color: #757575;
+    --hover-color: #2196F3;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 .body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    color: var(--main-color);
 }
 .footer {
     display: flex;
@@ -54,13 +55,9 @@
 }      
 .option-button:hover,
 .option-button:focus {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     color: #FFFFFF;
     cursor: pointer;
-}
-.a:hover,
-.a:focus {
-cursor: pointer;
 }
 /* Zastosowanie Header */
 .navigation a {
@@ -77,7 +74,7 @@ cursor: pointer;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3; 
+    color: var(--hover-color); 
     text-decoration: none;
 }
 .brand-h {
@@ -91,6 +88,7 @@ cursor: pointer;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--secondary-color);
 }
 .logo {
@@ -144,7 +142,7 @@ width: 200px;
 height: 50px;
 top: 430px;    
 left: auto;
-background: #2196F3;
+background: var(--hover-color);
 box-shadow: 0px 4px 4px rgba(0,0,0,0,15);
 border-radius: 4px; 
 }
@@ -274,6 +272,7 @@ border-radius: 4px;
     line-height: 1.17;
     font-style: normal;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 15px;
 }
@@ -282,7 +281,7 @@ border-radius: 4px;
     font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration-line: underline;
+    text-decoration: none
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-box {
