@@ -1,13 +1,10 @@
 /* Zastosowanie ogólne */
 :root {
-    background-color: #FFFFFF;
     --main-color: #212121;
     --secondary-color: #757575;
     --hover-color: #2196F3;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
 }
@@ -18,7 +15,7 @@
     justify-content: center;
     height: 252px;
     left: 0;
-    top: auto;
+    top: 1630px;
     margin: 0 auto;
     padding: 0 15px;
     background: #2f303A;
@@ -28,7 +25,7 @@
     flex-direction: column;
     width: 1200px;
     height: 1360px;
-    top: 174px;  
+    top: 80px;  
     margin: 0 auto;
     padding: 0 15px;  
 }
@@ -42,21 +39,24 @@
     padding: 0 15px;
     justify-content: space-around;
     align-items: center;
-    border-inline-end-color: 1px solid #ECECEC
+    border-inline-end-color: 1px solid #ECECEC;
     }
 /* Pseudoklasy etc */
 .contact-link a:hover,
 .contact-link a:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 .navigation a:hover,
 .navigation a:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }      
 .option-button:hover,
 .option-button:focus {
     background-color: var(--hover-color);
     color: #FFFFFF;
+    cursor: pointer;
+}
+.order-link:hover {
     cursor: pointer;
 }
 /* Zastosowanie Header */
@@ -132,19 +132,19 @@
     background-color: #2f303A;
 }
 .hero h1 {
-color: #FFFFFF;
-width: 696px;
-height: 120px;
-top: 280px;
+    color: #FFFFFF;
+    width: 696px;
+    height: 120px;
+    top: 280px;
 }
 .hero button {
-width: 200px;
-height: 50px;
-top: 430px;    
-left: auto;
-background: var(--hover-color);
-box-shadow: 0px 4px 4px rgba(0,0,0,0,15);
-border-radius: 4px; 
+    width: 200px;
+    height: 50px;
+    top: 430px;    
+    left: auto;
+    background: var(--hover-color);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0,15);
+    border-radius: 4px; 
 }
 .main-text {
     font-weight: 900;
@@ -281,7 +281,7 @@ border-radius: 4px;
     font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-box {
