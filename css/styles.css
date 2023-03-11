@@ -58,10 +58,6 @@ body {
 .option-button:focus {
     background-color: var(--hover-color);
     color: var(--white-color);
-    cursor: pointer;
-}
-.order-link:hover {
-    cursor: pointer;
 }
 /* Zastosowanie Header */
 .navigation a {
@@ -166,6 +162,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    cursor: pointer;
 }
 /* Zastosowanie Main Index Text content */
 .content-title {
@@ -300,6 +297,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    cursor: pointer;
     }
 .project-name {
     font-weight: 700;
