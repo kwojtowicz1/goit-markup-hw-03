@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
 }
-.header {
+.headers {
     display: flex;
     width: 1200px;
     height: 80px;
@@ -24,7 +24,7 @@ body {
     align-items: center;
     border-inline-end-color: 1px solid #ECECEC;
     }
-.main {
+.general {
         display: flex;
         flex-direction: column;
         width: 1200px;
@@ -33,7 +33,7 @@ body {
         margin: 0 auto;
         padding: 0 15px;  
     }
-.footer {
+.footers {
     display: flex;
     width: 1200px;
     flex-direction: column;
@@ -90,12 +90,6 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--secondary-color);
-}
-.logo {
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
 }
 .menu {
     display: flex;
@@ -311,9 +305,10 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
-.box-but {
-    display: inline;
-    text-align: center;
+.option-buttons {
+    display: inline-flex;
+    align-content: center;
+    list-style: none;
 }
 .cards {
     display: flex;
