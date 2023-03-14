@@ -15,33 +15,24 @@ body {
 .headers {
     display: flex;
     width: 1200px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    margin: 0 auto;
-    padding: 0 15px;
     justify-content: space-around;
+    margin: 0 auto;
     align-items: center;
     border-inline-end-color: 1px solid #ECECEC;
     }
 .general {
-        display: flex;
-        flex-direction: column;
-        width: 1200px;
-        height: 1360px;
-        top: 80px;  
-        margin: 0 auto;
-        padding: 0 15px;  
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto; 
+    padding: 0 15px;
     }
 .footers {
     display: flex;
     width: 1200px;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    height: 252px;
-    left: 0;
-    top: 2097px;
-    margin: 0 auto;
     padding: 0 15px;
     background: var(--backgroud-color);
 }
@@ -94,32 +85,21 @@ body {
 .menu {
     display: flex;
     list-style: none;
-    height: 16px;
-    width: 254px;
-    left: 453px;
-    top: 32px;
 }
 .menu-item {
     display: block;
     width: 76px;
-    height: 16px;
-    top: 32px;
 }
 .menu-link {
     display: flex;
     justify-content: space-around;
-    height: 16px;
     width: 295px;
-    left: 1078px;
-    top: 32px;
 }
 /* Zastosowanie Main Index Hero */
 .hero {
     display: flex;
     width: 1200px;
     height: 600px;
-    left: 0px;
-    top: 80px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -128,8 +108,6 @@ body {
 .hero h1 {
     color: var(--white-color);
     width: 696px;
-    height: 120px;
-    top: 280px;
 }
 .hero button {
     width: 200px;
@@ -177,15 +155,8 @@ body {
     list-style: none;
     justify-content: space-around;
 }
-.container-text p {
+.container-text h6, p {
     width: 270px;
-    height: 75px;
-    top: 800px;
-}
-.container-text h6 {
-    width: 270px;
-    height: 16px;
-    top: 774px;
 }
 /* Zastosowanie Main Index img */
 .section-subject-wwd {
@@ -239,9 +210,6 @@ body {
 .container-team {
     display: flex;
     width: 1200px;
-    height: 648px;
-    left: 0;
-    top: 1449px;
     flex-direction: column;
     background-color: #f5f4fa;
 }
