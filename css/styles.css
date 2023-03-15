@@ -12,9 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
 }
+.container {
+    width: 1200px;
+}
 .headers {
     display: flex;
-    width: 1200px;
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
@@ -23,13 +25,11 @@ body {
 .general {
     display: flex;
     flex-direction: column;
-    width: 1200px;
     margin: 0 auto; 
     padding: 0 15px;
     }
 .footers {
     display: flex;
-    width: 1200px;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
