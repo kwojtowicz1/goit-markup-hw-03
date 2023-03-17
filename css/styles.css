@@ -260,7 +260,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-color);
     cursor: pointer;
-    margin: auto;
+    margin-right: 8px;
     }
 .project-name {
     font-weight: 700;
@@ -277,6 +277,9 @@ body {
 .option-buttons {
     display: inline-flex;
     list-style: none;
+}
+.option-buttons li {
+    margin: auto;
 }
 .cards {
     display: flex;
