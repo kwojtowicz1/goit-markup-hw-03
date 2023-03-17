@@ -20,7 +20,7 @@ body {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
-    border-inline-end-color: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     }
 .general {
     display: flex;
@@ -260,6 +260,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-color);
     cursor: pointer;
+    margin: auto;
     }
 .project-name {
     font-weight: 700;
@@ -275,7 +276,6 @@ body {
 }
 .option-buttons {
     display: inline-flex;
-    align-content: center;
     list-style: none;
 }
 .cards {
@@ -290,5 +290,5 @@ body {
 }
 .frame-opt {
     margin: 0;
-    border-color: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
