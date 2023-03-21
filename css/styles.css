@@ -15,9 +15,12 @@ a {
     text-decoration: none;
     color: var(--main-color);
      }
-figure li ul h1 h6 {
+figure, li, ul, h1, h6 {
     padding: 0;
     margin: 0;
+}
+ul {
+    list-style: none;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -91,7 +94,6 @@ body {
     }
 .menu {
     display: flex;
-    list-style: none;
     padding-left: 83px;
 }
 .menu-item {
@@ -124,6 +126,7 @@ body {
     text-transform: uppercase;
     color: var(--white-color);
     width: 696px;
+    padding-bottom: 50px;
 }
 .order-link {
     font-weight: 700;
@@ -155,7 +158,6 @@ body {
 }
 .container-text {
     display: flex;
-    list-style: none;
     justify-content: space-around;
     padding-left: 0px;
 }
@@ -166,12 +168,13 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
 }
 .container-img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    list-style: none;
     margin: 0 auto;
     padding-left: 0px;
 }
@@ -183,6 +186,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 0;
+    padding-bottom: 50px;
 }
 .team-name {
     font-weight: 500;
@@ -190,6 +194,10 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-position {
     font-size: 16px;
@@ -197,6 +205,9 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 .frame {
     margin: 10px;
@@ -261,32 +272,37 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 4px;
 }
 .project-option {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+    padding-left: 24px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .option-buttons {
-    display: flex;
-    list-style: none;  
+    display: flex;  
     justify-content: center;  
+    padding-bottom: 50px;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    list-style: none; 
+    gap: 30px; 
     padding: 0px;
 }
 .card-set {
-    flex-basis: calc((100%-20px)/3);
-    width: 370px;
+    flex-basis: calc((100% - 60px) / 3);
 }
 .frame-opt {
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
-    width: 370px;
 }
