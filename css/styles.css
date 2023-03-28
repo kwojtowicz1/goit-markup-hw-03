@@ -33,25 +33,32 @@ body {
     padding-right: 15px;
 }
 .headers {
-    display: flex;
-    align-items: center;
     margin: 0 auto;
     padding-bottom: 25px;
     padding-top: 24px;
     border-bottom: 1px solid #ECECEC;
     width: 100%;
     }
-.footers {
+.headers-section {
     display: flex;
+    align-items: center;
+}
+.footers {
     margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
     background: var(--backgroud-color);
     width: 100%;
 }   
+.footers-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.box {
+    margin: 0 auto;
     width: 100%;
 }
 /* Pseudoklasy etc */
@@ -240,6 +247,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    padding-top: 20px;
+    padding-bottom: 9px;
 }
 .footer-link {
     font-size: 14px;
