@@ -70,6 +70,10 @@ body {
 .contact-link:focus {
     color: var(--hover-color);
 }   
+.footer-link:hover,
+.footer-link {
+    color: var(--hover-color);
+}
 .menu-item a:hover,
 .menu-item a:focus {
     color: var(--hover-color);
